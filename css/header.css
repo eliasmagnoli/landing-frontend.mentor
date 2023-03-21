@@ -1,0 +1,19 @@
+.first-block {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.bg-header {
+  position: absolute;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.img-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10rem;
+  margin: auto;
+  width: 40%;
+}
