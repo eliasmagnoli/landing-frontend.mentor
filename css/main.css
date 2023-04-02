@@ -1,8 +1,26 @@
-* {
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   font-family: "Bai Jamjuree", sans-serif;
+  overflow-x: hidden;
 }
 
 body {
@@ -41,7 +59,7 @@ p {
 
 /* segundo bloque */
 
-.computer-img {
+.computer-img img {
   width: 100%;
 }
 
@@ -81,18 +99,22 @@ p {
 
 /* quinto bloque */
 
-.tools-productivity img {
+.tools {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  margin: auto;
-
-  padding-bottom: 2rem;
-  width: 15%;
 }
 
-.first-img-tools {
-  padding-top: 3rem;
+.tools-item {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tools-item img {
+  width: 50px;
 }
 
 /* sexto bloque */
@@ -102,7 +124,7 @@ p {
   justify-content: center;
   align-items: center;
   margin: auto;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 5rem;
   padding-top: 5rem;
   padding-bottom: 10rem;
@@ -131,6 +153,7 @@ li {
   text-align: center;
   padding: 1rem;
   font-size: 18px;
+  list-style: none;
 }
 
 .social-links {

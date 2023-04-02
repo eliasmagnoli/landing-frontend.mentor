@@ -6,7 +6,7 @@
   padding-bottom: 8rem;
   gap: 1rem;
   text-decoration: none;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .buttons-2 {
@@ -17,7 +17,7 @@
   padding-bottom: 12rem;
   gap: 1rem;
   text-decoration: none;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .button-ios {
